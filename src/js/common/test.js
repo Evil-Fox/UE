@@ -1,0 +1,9 @@
+var new_name, post_css;
+
+post_css = 'пост';
+
+new_name = 'Vacy';
+
+alert('GO GO GO');
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGVzdC5qcyIsInNvdXJjZXMiOlsidGVzdC5jb2ZmZWUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsSUFBQTs7QUFBQSxRQUFBLEdBQVc7O0FBQ1gsUUFBQSxHQUFXOztBQUVYLEtBQUEsQ0FBTSxVQUFOIiwic291cmNlc0NvbnRlbnQiOlsicG9zdF9jc3MgPSAn0L/QvtGB0YInXG5uZXdfbmFtZSA9ICdWYWN5J1xuXG5hbGVydCgnR08gR08gR08nKVxuIl19
