@@ -18,6 +18,21 @@ bower install
 gulp start
 ```
 ### Собрать production version
+Главная версия собираеться в папке `dist`
 ```sh
 gulp build
+```
+После сборки главной версии нужно в HTML заменить `style.scc` на `style.min.css`
+
+## Зырь сюды!
+
+```html
+<head>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+```
+меняешь на 
+<head>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
 ```
