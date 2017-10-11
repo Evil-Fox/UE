@@ -40,7 +40,9 @@ gulp.task('css-libs',['sass'], function(){
 /*Таск для склейки библиотек JS и их инификации */
 gulp.task('script-libs',function(){
   return gulp.src([
-    '',
+    'src/libs/jquery/dist/jquery.min.js',
+    'src/libs/select2/dist/js/select2.min.js',
+    'src/libs/lightgallery.js/dist/js/lightgallery.js',
   ])
   .pipe(concat('libs.min.js'))
   .pipe(uglify())

@@ -1,0 +1,41 @@
+.footer
+  margin: 25px 0 0 0
+  padding: 25px 0 55px 0
+  color: $wh
+  font-weight: 300
+  background: rgba(0,39,57,0.9)
+  @include flex_row
+  justify-content: flex-start
+  align-items: flex-start
+  position: relative
+  span
+    position: absolute
+    bottom: 5px
+    top: auto
+    left: auto
+    right: auto
+    margin: 0 auto
+    width: 100%
+    text-align: center
+    display: block
+    padding: 15px 0 15px 0
+    border-top: 2px solid $c2
+
+.UE_footer_list
+  margin: 0 0 20px 0
+  li
+    padding: 5px 0
+    list-style: none
+    &:first-child
+      text-decoration: underline
+    a
+      color: $wh
+      text-decoration: none
+      font-size: 15px
+      &:hover
+        color: $c2
+  h4
+    padding: 0
+    margin: 0
+    font-weight: 400
+    font-size: 18px
