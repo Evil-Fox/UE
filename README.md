@@ -32,6 +32,7 @@ gulp build
 </head>
 ```
 меняешь на 
+```html
 <head>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
