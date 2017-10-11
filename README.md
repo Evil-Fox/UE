@@ -2,7 +2,14 @@
 
 Initial stage of development
 
-install 
+## Установка 
 
-#1 npm install
-#2 bower install
+### Установи пакеты NPM
+```sh
+npm install 
+```
+### Установи зависимости 
+
+```sh
+bower install 
+```
