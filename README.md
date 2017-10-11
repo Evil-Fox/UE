@@ -22,10 +22,9 @@ gulp start
 ```sh
 gulp build
 ```
-После сборки главной версии нужно в HTML заменить `style.scc` на `style.min.css`
 
 ## Зырь сюды!
-
+#### После сборки главной версии нужно в HTML заменить `style.scc` на `style.min.css`
 ```html
 <head>
     <link rel="stylesheet" href="css/style.css">
